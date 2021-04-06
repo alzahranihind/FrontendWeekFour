@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="calculator">
+    <h1 id="heading">Welcome to my calculator</h1>
+    <p>Enter the numbers then press calculate or clear button</p>
+    <div id="inner">
+    <div id="addd">
+        <input type="text" id="addnum1">
+        <p> + </p>
+        <input type="text" id="addnum2">
+        <p>=</p>
+        <p id="add"></p>
+    </div>
+    <div id="subb">
+        <input type="text" id="subnum1">
+        <p> - </p>
+        <input type="text" id="subnum2">
+        <p>=</p>
+        <p id="sub"></p>
+    </div>
+    <div id="mull">
+        <input type="text" id="mulnum1">
+        <p> * </p>
+        <input type="text" id="mulnum2">
+        <p>=</p>
+        <p id="mul"></p>
+    </div>
+    <div id="divv">
+        <input type="text" id="divnum1">
+        <p>/</p>
+        <input type="text" id="divnum2">
+        <p>=</p>
+        <p id="div"></p>
+    </div>
+    <button onclick="calculator()" class="btn">calculate</button>
+    <button onclick="clearAll()" class="btn">clear</button>
+    </div>
+</div>
+<script src="myScript.js"></script>  
+</body>
+</html>

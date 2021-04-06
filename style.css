@@ -1,0 +1,59 @@
+html{
+   background-image: url("bg2.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+
+}
+#addd, #subb, #mull, #divv{
+    display: flex;
+    width:370px;
+}
+#addd{
+   background-color: rgba(79, 79, 82, 0.5);
+}
+#subb{
+    background-color:rgba(79, 79, 82, 0.5) ;
+}
+#mull{
+    background-color: rgba(79, 79, 82, 0.5);
+}
+#divv{
+    background-color:rgba(79, 79, 82, 0.5);
+}
+#addnum1, #addnum2, #subnum1, #subnum2, #mulnum1, #mulnum2, #divnum1, #divnum2{
+    width: 100px;
+    border-radius:5px;
+    margin: 5px;
+    text-align: center;
+}
+#calculator {
+    position: relative;
+}
+#inner{
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 38%;
+    position: absolute;
+    margin-top: 60px; 
+}
+.btn{
+    border-radius:5px;
+    width: 185px;  
+}
+#add, #sub, #mul, #div{
+   border: 2px solid black;
+   border-radius:5px;
+   margin: 5px;
+   width: 80px;
+   padding:10px;
+   color: white;
+}
+h1 {
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
